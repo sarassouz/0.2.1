@@ -1,0 +1,52 @@
+* {
+  margin: 0; /* para fazer o menu ficar em 100% no topo */
+  padding: 0;
+}
+
+.header {
+  width: 100%; /* para fazer o menu ficar no topo da página */
+}
+.header {
+  position: -webkit-sticky; /* necessário para funcionar no Safari */
+  position: sticky; /* pra fixar o menu */
+  top: 0; /* pra deixar o menu no topo */
+}
+
+.menu {
+  background-color: #666666; /* cor de fundo do menu */
+  text-align: center; /* alinhamento do texto */
+}
+.menu ul li {
+  display: inline-block; /* pra deixar o menu em linha reta */
+}
+.menu ul li a {
+  display: block; /* aumentar o espaço do menu */
+  color: #ffffff; /* cor do texto */
+  padding: 20px 5px; /* distanciamento entre li */
+}
+
+.main {
+  padding: 50px 0; /* pra fazer com que o menu não cubra parte do texto */
+}
+
+.content {
+  /* configuração da caixa do main */
+  width: 80%; /* tamanho (largura) da caixa em volta do texto */
+  margin: auto; /* centralizar caixa */
+  padding: 30px;
+  background-color: #eff0f1; /* cor de fundo do main */
+  height: 1150px; /* tamanho (altura) da caixa em volta do texto */
+}
+.content h1 {
+  margin-bottom: 30px; /* distanciamento entre h1 e h2 */
+}
+.content li {
+  margin: 0 1em;
+}
+
+.footer {
+  /* configurações do footer */
+  background-color: #eff0f1; /* cor de fundo do footer */
+  text-align: center; /* alinhamento do texto */
+  padding: 30px 0; /* distanciamento entre main e footer */
+}
